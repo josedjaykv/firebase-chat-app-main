@@ -3,6 +3,7 @@ import { db, auth } from '../firebase'
 import SendMessage from './SendMessage'
 import SignOut from './SignOut'
 
+//modificación
 function Chat() {
     const scroll = useRef()
     const [messages, setMessages] = useState([])
